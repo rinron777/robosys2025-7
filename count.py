@@ -12,17 +12,17 @@ def validate_student_id(student_id: str):
         return False, "E02_NON_DIGIT"
 
     year = int(student_id[0:2])
-    dept = student_id[2:4]
-    number = int(student_id[4:7])
+    dept = student_id[2:5]      # ← 3桁
+    number = int(student_id[5:7])  # ← 2桁
 
     if year < 20 or year > 29:
         return False, "E03_YEAR"
 
-    # 学科コードは "03" のみ有効
-    if dept != "03":
+    # 学科コードは "030" のみ有効
+    if dept != "030":
         return False, "E04_DEPT"
 
-    if number < 1 or number > 999:
+    if number < 1 or number > 99:
         return False, "E05_NUMBER"
 
     return True, None
