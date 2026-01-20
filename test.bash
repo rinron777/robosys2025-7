@@ -4,7 +4,7 @@
 
 set -e
 
-output=$(cat <<EOF | python3 main.py
+output=$(cat <<EOF | python3 count.py
 2303007
 2310001
 23A3001
