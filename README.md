@@ -26,6 +26,7 @@ NN:個別番号（01〜99）
 ## 使用方法
 
 ### インストール（クローン）
+- 以下のコマンドを実行してください。
 ```
 git clone https://github.com/rinron777/robosys2025-7.git
 
@@ -33,7 +34,7 @@ cd robosys2025-7
 ```
 
 ### 実行方法
-標準入力から学籍番号を与えて実行します。
+- 標準入力から学籍番号を与えて実行します。
 ```
 cat input.txt | python3 count.py
 ```
