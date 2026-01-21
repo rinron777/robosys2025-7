@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2025 rinron777
 # SPDX-License-Identifier: BSD-3-Clause
-#!/usr/bin/env python3
+
 import sys
 from collections import defaultdict
 
