@@ -36,11 +36,11 @@ cd robosys2025-7
 ### 実行方法
 - 標準入力から学籍番号を与えて実行します。
 ```
-cat input.txt | python3 count.py
+cat input.txt | ./count
 ```
 - または直接入力することもできます。
 ```
-python3 count.py
+./count
 
 
 （Ctrl+D で入力終了）
